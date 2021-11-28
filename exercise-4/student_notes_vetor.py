@@ -19,5 +19,4 @@ def student_notes_vetor():
         
     print(f"Médias acima de 7: {alunos_acima}")
 
-
 student_notes_vetor()
