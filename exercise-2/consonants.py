@@ -2,7 +2,7 @@
  Imprima as consoantes """
 
 def consonants():
-    palavra = input("Digite uma palavra: ")
+    palavra = str(input("Digite uma palavra: "))
     count = 0
 
     for letra in palavra:
