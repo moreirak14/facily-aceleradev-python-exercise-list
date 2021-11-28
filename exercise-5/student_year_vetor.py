@@ -2,7 +2,7 @@
 quantos alunos com mais de 13 anos possuem altura inferior à média de altura desses alunos """
 
 def student_year_vetor():
-    alunos_acima = 0
+    alunos_acima_13 = 0
     medias = []
     
     for aluno in range(10):
@@ -18,10 +18,8 @@ def student_year_vetor():
             altura += float(input())
 
         if idade[aluno] >= 13:
-            alunos_acima += 1
-
-        #medias.append(altura/2)
+            alunos_acima_13 += 1
              
-    print(f"Médias com mais de 13 anos: {alunos_acima}")
+    print(f"Médias com mais de 13 anos: {alunos_acima_13}")
 
 student_year_vetor()
