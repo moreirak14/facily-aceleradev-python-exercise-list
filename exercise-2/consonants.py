@@ -8,6 +8,7 @@ def consonants():
     for letra in palavra:
         if letra in "bcdfghjklmnpqrstvxywz":
             count += 1
+            print(f"As consoantes são: {letra}")
 
     print(f"A palavra '{palavra}' tem {count} consoantes.")
                  
