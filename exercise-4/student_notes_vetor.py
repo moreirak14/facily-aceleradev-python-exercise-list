@@ -9,7 +9,7 @@ def student_notes_vetor():
         
         notas = 0
         for nota in range(2):
-            print("Digite a ", nota+1, "nota do ", aluno+1, "aluno")
+            print("Digite a ", nota+1, "nota do ", aluno+1, "aluno:")
             notas += int(input())
 
         medias.append(notas/2)
