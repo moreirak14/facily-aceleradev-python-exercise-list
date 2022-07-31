@@ -2,11 +2,13 @@
 o primeiro número elevado ao segundo número. Não utilize a função de potência 
 nativa da linguagem.  """
 
-def potencia():
-     base = int(input('Digite a base: '))
-     expoente = int(input('Digite o expoente '))
-     calculo = base ** expoente
-     print(f"Base {base} elevado ao expoente {expoente} é: {calculo}")
-     
 
-potencia()
+def potencia(base, expoente):
+    base = int(input("Digite a base: "))
+    expoente = int(input("Digite o expoente "))
+    return base ** expoente
+
+
+if __name__ == "__main__":
+    calculo = potencia(2, 2)
+    print(f"{calculo}")

@@ -14,7 +14,7 @@ h. encerre o programa com uma mensagem.
 
 i = int(input("Digite o numero: "))
 while i > -1:
-  i -= 1
-  if i == -3:
-    break
-  print(i)
+    i -= 1
+    if i == -3:
+        break
+    print(i)

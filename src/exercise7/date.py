@@ -12,11 +12,11 @@ from datetime import datetime
 from datetime import timedelta
 
 
-class Data():
+class Data:
 
-    """ def get_datetime():
-        x = datetime.datetime.now()
-        print(x.strftime("%x")) """
+    """def get_datetime():
+    x = datetime.datetime.now()
+    print(x.strftime("%x"))"""
 
     def __init__(self, dia=0, mes=0, ano=0):
         if dia == 0:
@@ -30,7 +30,7 @@ class Data():
         self.__ano = ano
 
     def __str__(self):
-        return '{}/{}/{}'.format(self.__dia,self.__mes,self.__ano)
+        return "{}/{}/{}".format(self.__dia, self.__mes, self.__ano)
 
     def dia_seguinte(self):
         date = datetime(self.__ano, self.__mes, self.__dia, 0, 0, 0) + timedelta(days=1)
@@ -40,7 +40,7 @@ class Data():
 
 
 data = Data(28, 11, 2021)
-print("Data atual = ",data)
+print("Data atual = ", data)
 data.dia_seguinte()
 print("Dia seguinte = ", data)
 

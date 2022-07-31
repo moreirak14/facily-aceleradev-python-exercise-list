@@ -9,6 +9,7 @@ para criar uma sequência dentro do intervalo [0,20] e alimentar sua lista. """
 
 """ Use o laço de repetição for para iterar ao longo da lista. """
 
+
 def vetor_impar_par():
     numeros = []
     par = []
@@ -30,5 +31,6 @@ def vetor_impar_par():
     print("Vetor com 20 numero: " + str(numeros))
     print(f"Vetor com {count_par} pares: " + str(par))
     print(f"Vetor com {count_impar} impares: " + str(impar))
+
 
 vetor_impar_par()
